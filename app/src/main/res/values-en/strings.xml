@@ -26,6 +26,12 @@
     <string name="language_system">System default</string>
     <string name="language_vi">Tiếng Việt</string>
     <string name="language_en">English</string>
+    <string name="language_zh">中文</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_fr">Français</string>
+    <string name="language_es">Español</string>
     <string name="settings_intro">Use the floating « ‹ ⏯ › » buttons to seek or play and pause the current video. Drag to move the controls. By default, ‹ and › seek by 5 seconds and ⏯ is shown in the middle.</string>
     <string name="overlay_switch">Show floating video controls</string>
     <string name="buttons_title">Seek buttons</string>

@@ -25,7 +25,7 @@ Different websites use different video players. Some offer dedicated buttons to 
 - **Movable overlay:** drag the controls where you want them, set opacity to **10–100%**, and adjust button size from **40–96 dp**. Drag the controls onto the **✕** at the bottom of the screen to turn them off.
 - **Home-screen toggle:** add the one-cell widget and tap it to turn the controls on or off. If you have the older two-cell widget, remove and re-add it.
 - **Notification toggle:** optionally pin a notification with an on/off action. If Android reports that the notification was dismissed, the app reposts it while the setting is enabled. This is off by default and separate from the overlay service notification.
-- **Vietnamese and English:** pick the language right in the app’s Settings screen (System default / Tiếng Việt / English); it applies immediately. If the system language is neither, the app falls back to Vietnamese. On Android 13 or later, the in-app choice stays in sync with the system **App languages** setting.
+- **8 languages:** Tiếng Việt, English, 中文, 한국어, Русский, Deutsch, Français, Español. By default the app follows your device language; if it is not in this list, the app uses English. You can pick a language at the bottom of the Settings screen and it applies immediately. On Android 13 or later, the in-app choice stays in sync with the system **App languages** setting.
 
 ## Installation and use
 

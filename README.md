@@ -25,7 +25,7 @@ Khi xem video trong trình duyệt, mỗi website có thể dùng một trình p
 - **Tùy chỉnh cụm nút:** kéo tới vị trí thuận tay, chỉnh độ đục từ **10–100%** và kích thước từ **40–96 dp**. Kéo cụm nút vào dấu **✕** ở đáy màn hình để tắt nhanh.
 - **Bật/tắt từ màn hình chính:** thêm widget 1 ô rồi chạm vào vòng tròn để đổi trạng thái. Nếu đang dùng widget 2 ô từ bản cũ, hãy gỡ và thêm lại.
 - **Bật/tắt từ thanh thông báo:** bật tùy chọn thông báo ghim trong Cài đặt để thêm một dòng có nút **Bật/Tắt nút nổi**. Khi nhận được sự kiện vuốt xóa, app đăng lại dòng này nếu tùy chọn ghim vẫn bật. Tùy chọn này tắt mặc định và tách riêng với thông báo hệ thống của dịch vụ nút nổi.
-- **Tiếng Việt và tiếng Anh:** chọn ngôn ngữ ngay trong màn Cài đặt (Theo hệ thống / Tiếng Việt / English), đổi là áp dụng ngay. Nếu theo hệ thống mà máy không dùng tiếng Việt hay tiếng Anh, app mặc định tiếng Việt. Từ Android 13, lựa chọn trong app đồng bộ với mục **Ngôn ngữ ứng dụng** của hệ thống.
+- **8 ngôn ngữ:** Tiếng Việt, English, 中文, 한국어, Русский, Deutsch, Français, Español. Mặc định app theo ngôn ngữ của máy; nếu máy dùng ngôn ngữ ngoài danh sách, app hiển thị tiếng Anh. Chọn ngôn ngữ ngay trong màn Cài đặt (ở cuối màn hình), đổi là áp dụng ngay. Từ Android 13, lựa chọn này đồng bộ với mục **Ngôn ngữ ứng dụng** của hệ thống.
 
 ## Cài đặt và sử dụng
 
