@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Media Float Button</string>
+    <string name="accessibility_desc">Finds the current video timeline and seeks backward or forward by the configured number of seconds when you tap a floating button.</string>
+
+    <string name="channel_name">Floating video controls</string>
+    <string name="channel_pinned_name">Floating controls toggle</string>
+    <string name="notification_title">Floating video controls are running</string>
+    <string name="notification_text">Tap to open settings</string>
+    <string name="overlay_turned_off">Floating controls turned off</string>
+    <string name="close_target_desc">Drop here to turn off floating controls</string>
+    <string name="drag_help">Tip: Drag the floating controls onto the ✕ at the bottom of the screen to turn them off.</string>
+    <string name="pinned_notification_switch">Pin a toggle in the notification shade</string>
+    <string name="pinned_notification_help">Show a Media Float Button notification with an on/off action. The app reposts it if dismissed while this switch is on. If it does not appear, check that notifications are allowed in Android Settings → Apps → Media Float Button → Notifications.</string>
+    <string name="pinned_title">Media Float Button</string>
+    <string name="pinned_status_on">Floating controls are on — tap for settings</string>
+    <string name="pinned_status_off">Floating controls are off — tap for settings</string>
+    <string name="action_turn_on">Turn on floating controls</string>
+    <string name="action_turn_off">Turn off floating controls</string>
+    <string name="widget_description">Toggle floating video controls</string>
+    <string name="widget_on">Floating controls: on</string>
+    <string name="widget_off">Floating controls: off</string>
+    <string name="widget_help">Touch and hold an empty spot on the home screen, then choose Widgets → Media Float Button. Tap the one-cell widget to toggle the controls. If you have the old two-cell widget, remove it and add it again.</string>
+
+    <string name="settings_title">Video control settings</string>
+    <string name="language_label">Language</string>
+    <string name="language_system">System default</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="settings_intro">Use the floating « ‹ ⏯ › » buttons to seek or play and pause the current video. Drag to move the controls. By default, ‹ and › seek by 5 seconds and ⏯ is shown in the middle.</string>
+    <string name="overlay_switch">Show floating video controls</string>
+    <string name="buttons_title">Seek buttons</string>
+    <string name="buttons_help">Check a box to show that button. Set how many seconds each tap seeks (1–600). To keep just one button, uncheck the others. The floating buttons show symbols only, not the number of seconds.</string>
+    <string name="preview_prefix">Preview:</string>
+    <string name="play_pause_label">⏯ Show Play/Pause in the middle</string>
+    <string name="play_desc">Play</string>
+    <string name="pause_desc">Pause</string>
+    <string name="play_pause_failed">Could not play or pause the current video</string>
+    <string name="slot_rewind_big">« Back (seconds)</string>
+    <string name="slot_rewind_small">‹ Back (seconds)</string>
+    <string name="slot_forward_small">› Forward (seconds)</string>
+    <string name="slot_forward_big">» Forward (seconds)</string>
+    <string name="at_least_one_button">Keep at least one control enabled</string>
+    <string name="opacity_label">Button opacity (lower means more transparent)</string>
+    <string name="size_label">Button size</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="dp_format">%1$d dp</string>
+    <string name="prev_desc">Seek back %1$d seconds</string>
+    <string name="next_desc">Seek forward %1$d seconds</string>
+    <string name="seek_failed">Could not seek in the current video</string>
+
+    <string name="permissions_title">Permissions</string>
+    <string name="status_granted">Granted ✓</string>
+    <string name="status_missing">Not granted — enable manually</string>
+
+    <string name="overlay_permission_label">1) Display over other apps</string>
+    <string name="open_overlay_settings">Open overlay settings</string>
+
+    <string name="accessibility_label">2) Accessibility</string>
+    <string name="accessibility_help">Finds and moves the video timeline when the player cannot be controlled through Android media controls. The app inspects the current screen only when you use a control. If the switch is unavailable on Xiaomi, go to App info → ⋮ → Allow restricted settings.</string>
+    <string name="open_accessibility_settings">Open Accessibility settings</string>
+
+    <string name="notification_label">3) Notification access (optional)</string>
+    <string name="notification_help">Used to find active media sessions. The app does not read notification contents.</string>
+    <string name="open_notification_settings">Open notification access settings</string>
+
+    <string name="test_title">Test controls</string>
+    <string name="session_found">Current media session: %1$s</string>
+    <string name="session_none">No active media session found. Open a video and come back, or try seeking using Accessibility.</string>
+    <string name="session_test_ok">Command sent via: %1$s</string>
+    <string name="session_test_fail">The command could not be sent. Check the permissions above and make sure the video is on screen.</string>
+    <string name="test_rewind_big">« Test</string>
+    <string name="test_rewind_small">‹ Test</string>
+    <string name="test_forward_small">Test ›</string>
+    <string name="test_play_pause">Test ⏯</string>
+    <string name="test_forward_big">Test »</string>
+
+    <string name="limitations">Android does not let an ordinary app send ←/→ keystrokes to the browser. Media Float Button uses Android media controls when available, or uses Accessibility to move the timeline. Some custom players do not expose a timeline, so seeking may not work.</string>
+</resources>

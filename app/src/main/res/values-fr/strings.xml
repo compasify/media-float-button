@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Media Float Button</string>
+    <string name="accessibility_desc">Trouve la barre de progression de la vidéo ouverte et recule/avance du nombre de secondes défini lorsque vous touchez un bouton flottant.</string>
+
+    <string name="channel_name">Commandes vidéo flottantes</string>
+    <string name="channel_pinned_name">Contrôle des boutons flottants</string>
+    <string name="notification_title">Commandes vidéo flottantes en cours</string>
+    <string name="notification_text">Appuyez pour ouvrir les paramètres</string>
+    <string name="overlay_turned_off">Commandes flottantes désactivées</string>
+    <string name="close_target_desc">Déposer ici pour désactiver les commandes flottantes</string>
+    <string name="drag_help">Astuce : faites glisser les boutons flottants sur le ✕ au bas de l\'écran pour les désactiver rapidement.</string>
+    <string name="pinned_notification_switch">Épingler un interrupteur dans le panneau de notifications</string>
+    <string name="pinned_notification_help">Affiche dans le panneau une ligne Media Float Button avec un bouton Activer/Désactiver. Si vous la balayez, elle réapparaît tant que cet interrupteur est activé. Si elle n\'apparaît pas, vérifiez dans Paramètres Android → Applications → Media Float Button → Notifications qu\'elles sont autorisées.</string>
+    <string name="pinned_title">Media Float Button</string>
+    <string name="pinned_status_on">Boutons flottants : ACTIVÉS — appuyez pour ouvrir les paramètres</string>
+    <string name="pinned_status_off">Boutons flottants : DÉSACTIVÉS — appuyez pour ouvrir les paramètres</string>
+    <string name="action_turn_on">Activer les boutons flottants</string>
+    <string name="action_turn_off">Désactiver les boutons flottants</string>
+    <string name="widget_description">Activer/désactiver rapidement les boutons flottants</string>
+    <string name="widget_on">Boutons flottants : activés</string>
+    <string name="widget_off">Boutons flottants : désactivés</string>
+    <string name="widget_help">Sur l\'écran d\'accueil, appuyez longuement sur un espace vide → Widgets → Media Float Button. Le widget n\'occupe qu\'une seule petite cellule ronde ; touchez-le pour activer/désactiver. Si vous avez ajouté le widget de l\'ancienne version (2 cellules), supprimez-le et ajoutez-le à nouveau pour obtenir la nouvelle taille.</string>
+
+    <string name="settings_title">Paramètres des boutons vidéo</string>
+    <string name="language_label">Langue</string>
+    <string name="language_system">Par défaut du système</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="language_zh">中文</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_fr">Français</string>
+    <string name="language_es">Español</string>
+    <string name="settings_intro">Les boutons flottants « ‹ ⏯ › » permettent de naviguer et de lire/mettre en pause la vidéo en cours selon les paramètres ci-dessous. Faites-les glisser pour les déplacer. Par défaut, ‹ › (5 secondes) et le bouton ⏯ au centre.</string>
+    <string name="overlay_switch">Afficher les commandes vidéo flottantes</string>
+    <string name="buttons_title">Boutons de recherche</string>
+    <string name="buttons_help">Cocher = afficher le bouton. Le nombre à côté est le nombre de secondes par appui (1–600). Si vous ne voulez qu\'un bouton d\'avance de 5 s, décochez les trois autres. Sur les boutons flottants, seuls les symboles « ‹ › » s\'affichent, pas les secondes.</string>
+    <string name="preview_prefix">Aperçu :</string>
+    <string name="play_pause_label">⏯ Bouton Lecture/Pause au centre</string>
+    <string name="play_desc">Lire</string>
+    <string name="pause_desc">Pause</string>
+    <string name="play_pause_failed">Impossible de lire/mettre en pause la vidéo en cours</string>
+    <string name="slot_rewind_big">« Retour (secondes)</string>
+    <string name="slot_rewind_small">‹ Retour (secondes)</string>
+    <string name="slot_forward_small">› Avancer (secondes)</string>
+    <string name="slot_forward_big">» Avancer (secondes)</string>
+    <string name="at_least_one_button">Gardez au moins un bouton activé</string>
+    <string name="opacity_label">Opacité des boutons (plus faible = plus transparent)</string>
+    <string name="size_label">Taille des boutons</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="dp_format">%1$d dp</string>
+    <string name="prev_desc">Reculer de %1$d secondes</string>
+    <string name="next_desc">Avancer de %1$d secondes</string>
+    <string name="seek_failed">Impossible de naviguer dans la vidéo actuelle</string>
+
+    <string name="permissions_title">Autorisations</string>
+    <string name="status_granted">Accordée ✓</string>
+    <string name="status_missing">Non accordée — activez manuellement</string>
+
+    <string name="overlay_permission_label">1) Afficher par-dessus les autres applis</string>
+    <string name="open_overlay_settings">Ouvrir les paramètres de superposition</string>
+
+    <string name="accessibility_label">2) Accessibilité</string>
+    <string name="accessibility_help">Utilisé pour trouver et faire glisser la barre de progression dans Edge/Chrome lorsque la vidéo ne prend pas en charge les commandes système. L\'application ne lit l\'écran que lorsque vous touchez un bouton. Sur Xiaomi, si l\'interrupteur est grisé : Infos appli → ⋮ → Autoriser les paramètres restreints.</string>
+    <string name="open_accessibility_settings">Ouvrir les paramètres d\'accessibilité</string>
+
+    <string name="notification_label">3) Accès aux notifications (optionnel)</string>
+    <string name="notification_help">Utilisé uniquement pour trouver les MediaSessions actives. L\'application ne lit pas le contenu des notifications.</string>
+    <string name="open_notification_settings">Ouvrir l\'accès aux notifications</string>
+
+    <string name="test_title">Test</string>
+    <string name="session_found">Session média actuelle : %1$s</string>
+    <string name="session_none">Aucune session média active. Ouvrez une vidéo et revenez, ou essayez via l\'accessibilité.</string>
+    <string name="session_test_ok">Commande envoyée via : %1$s</string>
+    <string name="session_test_fail">Impossible d\'envoyer la commande. Vérifiez les autorisations ci-dessus et assurez-vous que la vidéo est à l\'écran.</string>
+    <string name="test_rewind_big">« Test</string>
+    <string name="test_rewind_small">‹ Test</string>
+    <string name="test_forward_small">Test ›</string>
+    <string name="test_play_pause">Test ⏯</string>
+    <string name="test_forward_big">Test »</string>
+
+    <string name="limitations">Android n\'autorise pas une appli ordinaire à envoyer les touches ←/→ au navigateur. Media Float Button utilise les commandes média d\'Android quand elles sont disponibles, ou fait glisser la barre de progression via l\'accessibilité. Certains lecteurs personnalisés ou vidéos avec DRM peuvent ne pas fonctionner.</string>
+</resources>

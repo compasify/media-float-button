@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Media Float Button</string>
+    <string name="accessibility_desc">Tìm thanh timeline của video đang mở và kéo lùi/tiến theo số giây đã cài khi bạn bấm nút nổi.</string>
+
+    <string name="channel_name">Nút tua nổi</string>
+    <string name="channel_pinned_name">Điều khiển nút nổi</string>
+    <string name="notification_title">Nút tua video đang chạy</string>
+    <string name="notification_text">Chạm để mở cài đặt</string>
+    <string name="overlay_turned_off">Đã tắt nút nổi</string>
+    <string name="close_target_desc">Thả vào đây để tắt nút nổi</string>
+    <string name="drag_help">Mẹo: giữ kéo cụm nút nổi xuống dấu ✕ ở đáy màn hình để tắt nhanh.</string>
+    <string name="pinned_notification_switch">Hiện dòng bật/tắt ghim trong thanh thông báo</string>
+    <string name="pinned_notification_help">Khi bật, thanh thông báo luôn có 1 dòng Media Float Button với nút Bật/Tắt ngay trên đó. Vuốt xóa sẽ tự hiện lại — chỉ mất khi tắt công tắc này. Nếu bật mà không thấy: vào Cài đặt hệ thống → Ứng dụng → Media Float Button → Thông báo, bảo đảm đã cho phép thông báo.</string>
+    <string name="pinned_title">Media Float Button</string>
+    <string name="pinned_status_on">Nút nổi: ĐANG BẬT — chạm để mở Cài đặt</string>
+    <string name="pinned_status_off">Nút nổi: ĐÃ TẮT — chạm để mở Cài đặt</string>
+    <string name="action_turn_on">Bật nút nổi</string>
+    <string name="action_turn_off">Tắt nút nổi</string>
+    <string name="widget_description">Bật/tắt nhanh nút tua video nổi</string>
+    <string name="widget_on">Nút nổi: BẬT</string>
+    <string name="widget_off">Nút nổi: TẮT</string>
+    <string name="widget_help">Ngoài màn hình chính: nhấn giữ khoảng trống → Tiện ích (Widget) → Media Float Button. Widget chỉ chiếm 1 ô tròn nhỏ, chạm để bật/tắt. Nếu đã thêm widget từ bản cũ (2 ô), hãy xóa nó và thêm lại để nhận kích thước mới.</string>
+
+    <string name="settings_title">Cài đặt nút tua video</string>
+    <string name="language_label">Ngôn ngữ</string>
+    <string name="language_system">Mặc định theo hệ thống</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="language_zh">中文</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_fr">Français</string>
+    <string name="language_es">Español</string>
+    <string name="settings_intro">Các nút nổi « ‹ ⏯ › » tua và phát/dừng video đang xem theo cài đặt bên dưới. Kéo giữ nút để di chuyển vị trí. Mặc định bật ‹ › (5 giây) và nút ⏯ ở giữa.</string>
+    <string name="overlay_switch">Hiện nút nổi tua video</string>
+    <string name="buttons_title">Các nút tua</string>
+    <string name="buttons_help">Tích = hiện nút. Số bên cạnh là số giây mỗi lần bấm (1–600). Chỉ muốn 1 nút tiến 5s thì bỏ tích 3 nút còn lại. Trên nút nổi chỉ hiện ký hiệu « ‹ › », không hiện số giây.</string>
+    <string name="preview_prefix">Xem trước:</string>
+    <string name="play_pause_label">⏯ Nút Phát / Tạm dừng ở giữa</string>
+    <string name="play_desc">Phát</string>
+    <string name="pause_desc">Tạm dừng</string>
+    <string name="play_pause_failed">Không phát/dừng được video hiện tại</string>
+    <string name="slot_rewind_big">« Lùi (giây)</string>
+    <string name="slot_rewind_small">‹ Lùi (giây)</string>
+    <string name="slot_forward_small">› Tiến (giây)</string>
+    <string name="slot_forward_big">» Tiến (giây)</string>
+    <string name="at_least_one_button">Phải giữ ít nhất 1 nút tua</string>
+    <string name="opacity_label">Độ trong suốt của nút (opacity thấp = mờ hơn)</string>
+    <string name="size_label">Kích thước nút</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="dp_format">%1$ddp</string>
+    <string name="prev_desc">Tua lùi %1$d giây</string>
+    <string name="next_desc">Tua tiến %1$d giây</string>
+    <string name="seek_failed">Không tua được video hiện tại</string>
+
+    <string name="permissions_title">Quyền cần cấp</string>
+    <string name="status_granted">Đã cấp ✓</string>
+    <string name="status_missing">Chưa cấp — cần bật thủ công</string>
+
+    <string name="overlay_permission_label">1) Hiển thị trên ứng dụng khác</string>
+    <string name="open_overlay_settings">Mở cài đặt hiển thị nút nổi</string>
+
+    <string name="accessibility_label">2) Trợ năng (Accessibility)</string>
+    <string name="accessibility_help">Dùng để tìm và kéo thanh timeline trong Edge/Chrome khi video không hỗ trợ điều khiển qua hệ thống. App chỉ đọc màn hình khi bạn bấm nút tua. Trên Xiaomi, nếu nút bật bị mờ: vào Thông tin ứng dụng → dấu ⋮ → Cho phép cài đặt bị hạn chế.</string>
+    <string name="open_accessibility_settings">Mở cài đặt Trợ năng</string>
+
+    <string name="notification_label">3) Truy cập thông báo (tùy chọn)</string>
+    <string name="notification_help">Chỉ dùng để tìm video đang phát qua hệ thống Android đối với app/trình duyệt hỗ trợ tốt. App không đọc nội dung thông báo.</string>
+    <string name="open_notification_settings">Mở cài đặt truy cập thông báo</string>
+
+    <string name="test_title">Kiểm tra</string>
+    <string name="session_found">Phiên phát hiện tại: %1$s</string>
+    <string name="session_none">Chưa thấy phiên phát qua hệ thống. Hãy mở một video rồi quay lại, hoặc cứ thử nút tua (sẽ dùng Trợ năng).</string>
+    <string name="session_test_ok">Đã tua qua: %1$s</string>
+    <string name="session_test_fail">Không tua được. Kiểm tra 3 quyền ở trên và chắc chắn video đang hiện trên màn hình.</string>
+    <string name="test_rewind_big">« Thử</string>
+    <string name="test_rewind_small">‹ Thử</string>
+    <string name="test_forward_small">Thử ›</string>
+    <string name="test_play_pause">Thử ⏯</string>
+    <string name="test_forward_big">Thử »</string>
+
+    <string name="limitations">Lưu ý: Android không cho app thường gửi phím ←/→ vào trình duyệt khác. App ưu tiên tua chính xác qua hệ thống khi trình phát hỗ trợ; nếu không, app kéo thanh timeline bằng Trợ năng. Một số trang dùng trình phát tùy chỉnh (canvas) hoặc video DRM có thể không tua được — trường hợp đó cần tiện ích mở rộng cài trong trình duyệt.</string>
+</resources>

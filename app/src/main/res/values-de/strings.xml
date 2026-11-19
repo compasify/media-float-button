@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Media Float Button</string>
+    <string name="accessibility_desc">Findet die Zeitleiste des geöffneten Videos und spult beim Antippen einer schwebenden Taste um die eingestellte Anzahl von Sekunden zurück/vor.</string>
+
+    <string name="channel_name">Schwebende Video-Steuerung</string>
+    <string name="channel_pinned_name">Steuerung der schwebenden Schaltflächen</string>
+    <string name="notification_title">Schwebende Video-Steuerung aktiv</string>
+    <string name="notification_text">Tippen, um Einstellungen zu öffnen</string>
+    <string name="overlay_turned_off">Schwebende Steuerung ausgeschaltet</string>
+    <string name="close_target_desc">Hierher ziehen, um die schwebende Steuerung auszuschalten</string>
+    <string name="drag_help">Tipp: Ziehen Sie die schwebende Steuerung auf das ✕ unten in der Bildschirmmitte, um sie schnell auszuschalten.</string>
+    <string name="pinned_notification_switch">Festen Ein/Aus-Schalter in der Benachrichtigungsleiste anzeigen</string>
+    <string name="pinned_notification_help">Wenn aktiviert, enthält die Benachrichtigungsleiste eine Zeile „Media Float Button“ mit einer Ein/Aus-Schaltfläche direkt darauf. Beim Wegwischen erscheint sie erneut — sie verschwindet nur, wenn Sie diesen Schalter ausschalten. Falls sie nicht sichtbar ist: Systemeinstellungen → Apps → Media Float Button → Benachrichtigungen und sicherstellen, dass Benachrichtigungen erlaubt sind.</string>
+    <string name="pinned_title">Media Float Button</string>
+    <string name="pinned_status_on">Schwebende Steuerung: EIN — tippen für Einstellungen</string>
+    <string name="pinned_status_off">Schwebende Steuerung: AUS — tippen für Einstellungen</string>
+    <string name="action_turn_on">Schwebende Steuerung einschalten</string>
+    <string name="action_turn_off">Schwebende Steuerung ausschalten</string>
+    <string name="widget_description">Schwebende Video-Steuerung ein-/ausschalten</string>
+    <string name="widget_on">Schwebende Steuerung: EIN</string>
+    <string name="widget_off">Schwebende Steuerung: AUS</string>
+    <string name="widget_help">Auf dem Startbildschirm eine freie Stelle gedrückt halten → Widgets → Media Float Button. Das Widget belegt nur eine kleine runde Zelle; antippen zum Ein-/Ausschalten. Wenn Sie das alte Widget (2 Zellen) hinzugefügt haben, entfernen Sie es und fügen Sie es erneut hinzu, um die neue Größe zu erhalten.</string>
+
+    <string name="settings_title">Einstellungen für Video-Steuerung</string>
+    <string name="language_label">Sprache</string>
+    <string name="language_system">Systemstandard</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="language_zh">中文</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_fr">Français</string>
+    <string name="language_es">Español</string>
+    <string name="settings_intro">Die schwebenden Tasten « ‹ ⏯ › » suchen und spielen/pausieren das aktuelle Video gemäß den folgenden Einstellungen. Ziehen zum Verschieben. Standardmäßig ‹ › (5 Sekunden) und die Taste ⏯ in der Mitte.</string>
+    <string name="overlay_switch">Schwebende Video-Steuerung anzeigen</string>
+    <string name="buttons_title">Suchtasten</string>
+    <string name="buttons_help">Häkchen = Taste anzeigen. Die Zahl daneben ist die Anzahl der Sekunden pro Antippen (1–600). Wenn Sie nur eine Vorlauf-Taste mit 5 s möchten, deaktivieren Sie die anderen drei. Auf den schwebenden Tasten erscheinen nur Symbole « ‹ › », keine Sekundenangaben.</string>
+    <string name="preview_prefix">Vorschau:</string>
+    <string name="play_pause_label">⏯ Wiedergabe-/Pause-Taste in der Mitte</string>
+    <string name="play_desc">Abspielen</string>
+    <string name="pause_desc">Pause</string>
+    <string name="play_pause_failed">Aktuelles Video konnte nicht wiedergegeben/pausiert werden</string>
+    <string name="slot_rewind_big">« Zurück (Sekunden)</string>
+    <string name="slot_rewind_small">‹ Zurück (Sekunden)</string>
+    <string name="slot_forward_small">› Vorwärts (Sekunden)</string>
+    <string name="slot_forward_big">» Vorwärts (Sekunden)</string>
+    <string name="at_least_one_button">Mindestens eine Taste aktiviert lassen</string>
+    <string name="opacity_label">Deckkraft der Tasten (niedriger = transparenter)</string>
+    <string name="size_label">Tastengröße</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="dp_format">%1$d dp</string>
+    <string name="prev_desc">%1$d Sekunden zurückspulen</string>
+    <string name="next_desc">%1$d Sekunden vorspulen</string>
+    <string name="seek_failed">Suche im aktuellen Video nicht möglich</string>
+
+    <string name="permissions_title">Berechtigungen</string>
+    <string name="status_granted">Zugriff gewährt ✓</string>
+    <string name="status_missing">Nicht gewährt — manuell aktivieren</string>
+
+    <string name="overlay_permission_label">1) Über anderen Apps anzeigen</string>
+    <string name="open_overlay_settings">Overlay-Einstellungen öffnen</string>
+
+    <string name="accessibility_label">2) Bedienungshilfen</string>
+    <string name="accessibility_help">Dient zum Finden und Ziehen der Zeitleiste in Edge/Chrome, wenn das Video keine Systemsteuerung unterstützt. Die App liest nur bei Antippen einer Taste vom Bildschirm. Bei Xiaomi, falls der Schalter ausgegraut ist: App-Info → ⋮ → Eingeschränkte Einstellungen zulassen.</string>
+    <string name="open_accessibility_settings">Bedienungshilfen öffnen</string>
+
+    <string name="notification_label">3) Benachrichtigungszugriff (optional)</string>
+    <string name="notification_help">Wird nur zum Finden aktiver MediaSessions verwendet. Die App liest keine Benachrichtigungsinhalte.</string>
+    <string name="open_notification_settings">Benachrichtigungszugriff öffnen</string>
+
+    <string name="test_title">Test</string>
+    <string name="session_found">Aktuelle Mediensitzung: %1$s</string>
+    <string name="session_none">Keine aktive Mediensitzung gefunden. Öffnen Sie ein Video und kommen Sie zurück, oder versuchen Sie es über die Bedienungshilfen.</string>
+    <string name="session_test_ok">Befehl gesendet über: %1$s</string>
+    <string name="session_test_fail">Befehl konnte nicht gesendet werden. Prüfen Sie die obigen Berechtigungen und stellen Sie sicher, dass das Video sichtbar ist.</string>
+    <string name="test_rewind_big">« Test</string>
+    <string name="test_rewind_small">‹ Test</string>
+    <string name="test_forward_small">Test ›</string>
+    <string name="test_play_pause">Test ⏯</string>
+    <string name="test_forward_big">Test »</string>
+
+    <string name="limitations">Android erlaubt normalen Apps nicht, ←/→-Tastenanschläge an den Browser zu senden. Media Float Button nutzt die Android-Mediensteuerung, falls verfügbar, oder zieht die Zeitleiste über die Bedienungshilfen. Manche benutzerdefinierte Player oder DRM-Videos funktionieren möglicherweise nicht.</string>
+</resources>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Media Float Button</string>
+    <string name="accessibility_desc">Encuentra la barra de progreso del vídeo abierto y retrocede/avanza el número de segundos configurado al tocar un botón flotante.</string>
+
+    <string name="channel_name">Controles flotantes de vídeo</string>
+    <string name="channel_pinned_name">Control de botones flotantes</string>
+    <string name="notification_title">Los controles flotantes de vídeo están activos</string>
+    <string name="notification_text">Toca para abrir ajustes</string>
+    <string name="overlay_turned_off">Controles flotantes desactivados</string>
+    <string name="close_target_desc">Suelta aquí para desactivar los controles flotantes</string>
+    <string name="drag_help">Consejo: arrastra los botones flotantes hasta la ✕ en la parte inferior de la pantalla para desactivarlos rápido.</string>
+    <string name="pinned_notification_switch">Fijar un interruptor en el panel de notificaciones</string>
+    <string name="pinned_notification_help">Muestra en el panel una notificación de Media Float Button con un botón de encendido/apagado. Si la deslizas, la app la vuelve a publicar mientras este interruptor esté activado. Si no aparece, comprueba en Ajustes de Android → Apps → Media Float Button → Notificaciones que están permitidas.</string>
+    <string name="pinned_title">Media Float Button</string>
+    <string name="pinned_status_on">Controles flotantes: ACTIVADOS — toca para ajustes</string>
+    <string name="pinned_status_off">Controles flotantes: DESACTIVADOS — toca para ajustes</string>
+    <string name="action_turn_on">Activar controles flotantes</string>
+    <string name="action_turn_off">Desactivar controles flotantes</string>
+    <string name="widget_description">Activar/desactivar controles flotantes de vídeo</string>
+    <string name="widget_on">Controles flotantes: activados</string>
+    <string name="widget_off">Controles flotantes: desactivados</string>
+    <string name="widget_help">En la pantalla de inicio, mantén pulsado un espacio vacío → Widgets → Media Float Button. El widget ocupa solo una pequeña celda redonda; tócalo para activar/desactivar. Si añadiste el widget de la versión antigua (2 celdas), elimínalo y vuelve a añadirlo para obtener el nuevo tamaño.</string>
+
+    <string name="settings_title">Ajustes de controles de vídeo</string>
+    <string name="language_label">Idioma</string>
+    <string name="language_system">Predeterminado del sistema</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="language_zh">中文</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_fr">Français</string>
+    <string name="language_es">Español</string>
+    <string name="settings_intro">Los botones flotantes « ‹ ⏯ › » permiten buscar y reproducir/pausar el vídeo actual según los ajustes siguientes. Arrástra para moverlos. Por defecto, ‹ › (5 segundos) y el botón ⏯ en el centro.</string>
+    <string name="overlay_switch">Mostrar controles flotantes de vídeo</string>
+    <string name="buttons_title">Botones de búsqueda</string>
+    <string name="buttons_help">Marca = mostrar botón. El número indica los segundos por pulsación (1–600). Si quieres solo un botón de avance de 5 s, desmarca los otros tres. En los botones flotantes solo se muestran símbolos « ‹ › », no los segundos.</string>
+    <string name="preview_prefix">Vista previa:</string>
+    <string name="play_pause_label">⏯ Botón Reproducir/Pausar en el centro</string>
+    <string name="play_desc">Reproducir</string>
+    <string name="pause_desc">Pausar</string>
+    <string name="play_pause_failed">No se pudo reproducir/pausar el vídeo actual</string>
+    <string name="slot_rewind_big">« Retroceder (segundos)</string>
+    <string name="slot_rewind_small">‹ Retroceder (segundos)</string>
+    <string name="slot_forward_small">› Avanzar (segundos)</string>
+    <string name="slot_forward_big">» Avanzar (segundos)</string>
+    <string name="at_least_one_button">Mantén al menos un botón activado</string>
+    <string name="opacity_label">Opacidad de los botones (menor = más transparente)</string>
+    <string name="size_label">Tamaño de los botones</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="dp_format">%1$d dp</string>
+    <string name="prev_desc">Retroceder %1$d segundos</string>
+    <string name="next_desc">Avanzar %1$d segundos</string>
+    <string name="seek_failed">No se pudo buscar en el vídeo actual</string>
+
+    <string name="permissions_title">Permisos</string>
+    <string name="status_granted">Concedido ✓</string>
+    <string name="status_missing">No concedido — actívalo manualmente</string>
+
+    <string name="overlay_permission_label">1) Mostrar sobre otras apps</string>
+    <string name="open_overlay_settings">Abrir ajustes de superposición</string>
+
+    <string name="accessibility_label">2) Accesibilidad</string>
+    <string name="accessibility_help">Se usa para encontrar y arrastrar la barra de progreso en Edge/Chrome cuando el vídeo no admite controles del sistema. La app solo lee la pantalla cuando tocas un botón. En Xiaomi, si el interruptor está atenuado: Info. de la app → ⋮ → Permitir ajustes restringidos.</string>
+    <string name="open_accessibility_settings">Abrir ajustes de accesibilidad</string>
+
+    <string name="notification_label">3) Acceso a notificaciones (opcional)</string>
+    <string name="notification_help">Solo se usa para encontrar MediaSessions activas. La app no lee el contenido de las notificaciones.</string>
+    <string name="open_notification_settings">Abrir acceso a notificaciones</string>
+
+    <string name="test_title">Prueba</string>
+    <string name="session_found">Sesión multimedia actual: %1$s</string>
+    <string name="session_none">No se encontró sesión multimedia activa. Abre un vídeo y vuelve, o prueba con Accesibilidad.</string>
+    <string name="session_test_ok">Comando enviado mediante: %1$s</string>
+    <string name="session_test_fail">No se pudo enviar el comando. Comprueba los permisos anteriores y asegúrate de que el vídeo esté en pantalla.</string>
+    <string name="test_rewind_big">« Probar</string>
+    <string name="test_rewind_small">‹ Probar</string>
+    <string name="test_forward_small">Probar ›</string>
+    <string name="test_play_pause">Probar ⏯</string>
+    <string name="test_forward_big">Probar »</string>
+
+    <string name="limitations">Android no permite que una app normal envíe pulsaciones ←/→ al navegador. Media Float Button usa los controles multimedia de Android cuando están disponibles, o arrastra la barra de progreso mediante Accesibilidad. Algunos reproductores personalizados o vídeos con DRM pueden no funcionar.</string>
+</resources>

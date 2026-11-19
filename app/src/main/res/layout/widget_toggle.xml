@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/widgetButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_circle_on"
+        android:contentDescription="@string/widget_description"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_pause" />
+</FrameLayout>

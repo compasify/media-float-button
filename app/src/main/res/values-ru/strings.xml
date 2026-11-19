@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Media Float Button</string>
+    <string name="accessibility_desc">Находит временную шкалу открытого видео и перематывает назад/вперёд на заданное количество секунд при нажатии плавающей кнопки.</string>
+
+    <string name="channel_name">Плавающие кнопки перемотки</string>
+    <string name="channel_pinned_name">Управление плавающими кнопками</string>
+    <string name="notification_title">Плавающие кнопки видео запущены</string>
+    <string name="notification_text">Нажмите, чтобы открыть настройки</string>
+    <string name="overlay_turned_off">Плавающие кнопки выключены</string>
+    <string name="close_target_desc">Отпустите здесь, чтобы выключить плавающие кнопки</string>
+    <string name="drag_help">Совет: перетащите плавающие кнопки на ✕ в нижней центральной части экрана, чтобы быстро их отключить.</string>
+    <string name="pinned_notification_switch">Закреплённая строка вкл/выкл на панели уведомлений</string>
+    <string name="pinned_notification_help">Показывает в панели уведомлений строку Media Float Button с кнопкой включения/выключения прямо на ней. При свайпе она появится вновь — исчезнет только при выключении этого параметра. Если не видна, проверьте в системных настройках → Приложения → Media Float Button → Уведомления, что уведомления разрешены.</string>
+    <string name="pinned_title">Media Float Button</string>
+    <string name="pinned_status_on">Плавающие кнопки: ВКЛЮЧЕНЫ — нажмите, чтобы открыть настройки</string>
+    <string name="pinned_status_off">Плавающие кнопки: ВЫКЛЮЧЕНЫ — нажмите, чтобы открыть настройки</string>
+    <string name="action_turn_on">Включить плавающие кнопки</string>
+    <string name="action_turn_off">Выключить плавающие кнопки</string>
+    <string name="widget_description">Быстрое включение/выключение плавающих кнопок видео</string>
+    <string name="widget_on">Плавающие кнопки: ВКЛ</string>
+    <string name="widget_off">Плавающие кнопки: ВЫКЛ</string>
+    <string name="widget_help">На главном экране нажмите и удерживайте пустое место → Виджеты → Media Float Button. Виджет занимает только одну маленькую круглую ячейку, коснитесь его, чтобы включить/выключить. Если вы добавили виджет из старой версии (2 ячейки), удалите его и добавьте заново, чтобы получить новый размер.</string>
+
+    <string name="settings_title">Настройки кнопок перемотки видео</string>
+    <string name="language_label">Язык</string>
+    <string name="language_system">По умолчанию (системный)</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="language_zh">中文</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_fr">Français</string>
+    <string name="language_es">Español</string>
+    <string name="settings_intro">Плавающие кнопки « ‹ ⏯ › » перематывают и ставят на паузу/воспроизводят текущее видео в соответствии с настройками ниже. Перетаскивайте кнопки, чтобы переместить их. По умолчанию включены ‹ › (5 секунд) и кнопка ⏯ по центру.</string>
+    <string name="overlay_switch">Показывать плавающие кнопки видео</string>
+    <string name="buttons_title">Кнопки перемотки</string>
+    <string name="buttons_help">Галочка = показать кнопку. Число рядом — количество секунд на каждое нажатие (1–600). Если нужна только одна кнопка перемотки вперёд на 5 с, снимите остальные три галочки. На плавающих кнопках отображаются только символы « ‹ › », без количества секунд.</string>
+    <string name="preview_prefix">Предпросмотр:</string>
+    <string name="play_pause_label">⏯ Кнопка «Воспроизведение / Пауза» по центру</string>
+    <string name="play_desc">Воспроизвести</string>
+    <string name="pause_desc">Пауза</string>
+    <string name="play_pause_failed">Не udało воспроизвести/приостановить текущее видео</string>
+    <string name="slot_rewind_big">« Назад (сек)</string>
+    <string name="slot_rewind_small">‹ Назад (сек)</string>
+    <string name="slot_forward_small">› Вперёд (сек)</string>
+    <string name="slot_forward_big">» Вперёд (сек)</string>
+    <string name="at_least_one_button">Оставьте хотя бы одну кнопку включённой</string>
+    <string name="opacity_label">Прозрачность кнопок (меньше — прозрачнее)</string>
+    <string name="size_label">Размер кнопки</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="dp_format">%1$d dp</string>
+    <string name="prev_desc">Назад на %1$d с</string>
+    <string name="next_desc">Вперёд на %1$d с</string>
+    <string name="seek_failed">Не удалось перемотать текущее видео</string>
+
+    <string name="permissions_title">Необходимые разрешения</string>
+    <string name="status_granted">Разрешено ✓</string>
+    <string name="status_missing">Не разрешено — включите вручную</string>
+
+    <string name="overlay_permission_label">1) Отображение поверх других приложений</string>
+    <string name="open_overlay_settings">Открыть настройки отображения поверх</string>
+
+    <string name="accessibility_label">2) Специальные возможности</string>
+    <string name="accessibility_help">Используется для поиска и перетаскивания временной шкалы в Edge/Chrome, когда видео не поддерживает системное управление. Приложение читает с экрана только при нажатии кнопки перемотки. На Xiaomi, если переключатель неактивен: перейдите в «Сведения о приложении» → ⋮ → «Разрешить ограниченные настройки».</string>
+    <string name="open_accessibility_settings">Открыть специальные возможности</string>
+
+    <string name="notification_label">3) Доступ к уведомлениям (необязательно)</string>
+    <string name="notification_help">Используется только для поиска активных медиaseссии Android. Приложение не читает содержимое уведомлений.</string>
+    <string name="open_notification_settings">Открыть настройки доступа к уведомлениям</string>
+
+    <string name="test_title">Проверка</string>
+    <string name="session_found">Текущий сеанс воспроизведения: %1$s</string>
+    <string name="session_none">Активный медиaseанс не найден. Откройте видео и вернитесь сюда или попробуйте перемотку через «Специальные возможности».</string>
+    <string name="session_test_ok">Команда отправлена через: %1$s</string>
+    <string name="session_test_fail">Не удалось отправить команду. Проверьте разрешения выше и убедитесь, что видео на экране.</string>
+    <string name="test_rewind_big">« Тест</string>
+    <string name="test_rewind_small">‹ Тест</string>
+    <string name="test_forward_small">Тест ›</string>
+    <string name="test_play_pause">Тест ⏯</string>
+    <string name="test_forward_big">Тест »</string>
+
+    <string name="limitations">Android не позволяет обычным приложениям отправлять клавиши ←/→ в другой браузер. Media Float Button использует системное управление медиа, когда оно доступно, или перетаскивает шкалу времени через специальные возможности. Некоторые пользовательские плееры (canvas) или видео с DRM могут не поддерживаться.</string>
+</resources>

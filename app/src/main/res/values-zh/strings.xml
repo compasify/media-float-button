@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Media Float Button</string>
+    <string name="accessibility_desc">查找当前视频的时间轴，点击悬浮按钮时按设定的秒数快退或快进。</string>
+
+    <string name="channel_name">悬浮视频控制</string>
+    <string name="channel_pinned_name">悬浮按钮开关</string>
+    <string name="notification_title">悬浮视频按钮正在运行</string>
+    <string name="notification_text">点击打开设置</string>
+    <string name="overlay_turned_off">已关闭悬浮按钮</string>
+    <string name="close_target_desc">拖放到此处关闭悬浮按钮</string>
+    <string name="drag_help">提示：将悬浮按钮组拖到屏幕底部中间的 ✕ 上即可快速关闭。</string>
+    <string name="pinned_notification_switch">在通知栏显示固定开关行</string>
+    <string name="pinned_notification_help">开启后，通知栏会显示一行 Media Float Button，并带有开关按钮。滑动删除后会自动恢复；仅当关闭此开关时才会消失。若开启后不见，请到系统设置 → 应用 → Media Float Button → 通知，确认已允许通知。</string>
+    <string name="pinned_title">Media Float Button</string>
+    <string name="pinned_status_on">悬浮按钮：已开启 — 点击打开设置</string>
+    <string name="pinned_status_off">悬浮按钮：已关闭 — 点击打开设置</string>
+    <string name="action_turn_on">开启悬浮按钮</string>
+    <string name="action_turn_off">关闭悬浮按钮</string>
+    <string name="widget_description">快速开启/关闭悬浮快进按钮</string>
+    <string name="widget_on">悬浮按钮：开</string>
+    <string name="widget_off">悬浮按钮：关</string>
+    <string name="widget_help">在主屏幕上长按空白处 → 小部件 → Media Float Button。小部件仅占 1 个小圆格，轻触即可开关。如果已添加了旧版（2 格）小部件，请先将其移除再重新添加以获得新尺寸。</string>
+
+    <string name="settings_title">视频跳过按钮设置</string>
+    <string name="language_label">语言</string>
+    <string name="language_system">系统默认</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="language_zh">中文</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_fr">Français</string>
+    <string name="language_es">Español</string>
+    <string name="settings_intro">悬浮按钮 « ‹ ⏯ › » 根据下方设置对当前视频进行跳过和播放/暂停。拖动按钮可移动位置。默认启用 ‹ ›（5 秒）和中间的 ⏯。</string>
+    <string name="overlay_switch">显示悬浮视频按钮</string>
+    <string name="buttons_title">跳过按钮</string>
+    <string name="buttons_help">勾选 = 显示按钮。旁边的数字为每次点击跳过的秒数（1–600）。如果只想保留一个“快进 5 秒”按钮，取消勾选其他 3 个。悬浮按钮上只显示 « ‹ › » 符号，不显示秒数。</string>
+    <string name="preview_prefix">预览：</string>
+    <string name="play_pause_label">⏯ 中间播放/暂停按钮</string>
+    <string name="play_desc">播放</string>
+    <string name="pause_desc">暂停</string>
+    <string name="play_pause_failed">无法播放/暂停当前视频</string>
+    <string name="slot_rewind_big">« 快退（秒）</string>
+    <string name="slot_rewind_small">‹ 快退（秒）</string>
+    <string name="slot_forward_small">› 快进（秒）</string>
+    <string name="slot_forward_big">» 快进（秒）</string>
+    <string name="at_least_one_button">至少需要保留一个按钮</string>
+    <string name="opacity_label">按钮不透明度（越低越透明）</string>
+    <string name="size_label">按钮大小</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="dp_format">%1$ddp</string>
+    <string name="prev_desc">快退 %1$d 秒</string>
+    <string name="next_desc">快进 %1$d 秒</string>
+    <string name="seek_failed">无法对当前视频进行跳转</string>
+
+    <string name="permissions_title">所需权限</string>
+    <string name="status_granted">已授予 ✓</string>
+    <string name="status_missing">未授予 — 请手动开启</string>
+
+    <string name="overlay_permission_label">1) 显示在其他应用上层</string>
+    <string name="open_overlay_settings">打开悬浮窗设置</string>
+
+    <string name="accessibility_label">2) 无障碍（Accessibility）</string>
+    <string name="accessibility_help">当视频无法通过系统控制时，用于查找并拖动 Edge/Chrome 中的时间轴。应用仅在您点击跳过按钮时读取屏幕。在小米手机上，如果切换按钮呈灰色：进入应用信息 → ⋮ → 允许受限制的设置。</string>
+    <string name="open_accessibility_settings">打开无障碍设置</string>
+
+    <string name="notification_label">3) 通知使用权（可选）</string>
+    <string name="notification_help">仅用于查找正在通过 Android 系统播放的视频，适用于支持良好的应用/浏览器。应用不读取通知内容。</string>
+    <string name="open_notification_settings">打开通知使用权设置</string>
+
+    <string name="test_title">测试</string>
+    <string name="session_found">当前媒体会话：%1$s</string>
+    <string name="session_none">未检测到系统媒体会话。请打开一个视频再返回，或直接尝试使用跳过按钮（将使用无障碍功能）。</string>
+    <string name="session_test_ok">命令已通过以下方式发送：%1$s</string>
+    <string name="session_test_fail">命令发送失败。请检查上方的三项权限，并确保视频已显示在屏幕上。</string>
+    <string name="test_rewind_big">« 测试</string>
+    <string name="test_rewind_small">‹ 测试</string>
+    <string name="test_forward_small">测试 ›</string>
+    <string name="test_play_pause">测试 ⏯</string>
+    <string name="test_forward_big">测试 »</string>
+
+    <string name="limitations">注意：Android 不允许普通应用向其他浏览器发送 ←/→ 按键。当播放器支持时，应用优先通过系统精确跳转；否则，它会通过无障碍功能拖动时间轴。某些使用自定义播放器（canvas）或 DRM 视频的网站可能无法跳转——这种情况需要安装在浏览器中的扩展程序。</string>
+</resources>

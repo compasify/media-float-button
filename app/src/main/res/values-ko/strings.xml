@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Media Float Button</string>
+    <string name="accessibility_desc">열려 있는 동영상의 타임라인을 찾아, 플로팅 버튼을 누르면 설정한 초 단위로 뒤로/앞으로 이동합니다.</string>
+
+    <string name="channel_name">플로팅 탐색 버튼</string>
+    <string name="channel_pinned_name">플로팅 버튼 제어</string>
+    <string name="notification_title">동영상 탐색 버튼이 실행 중입니다</string>
+    <string name="notification_text">터치하여 설정 열기</string>
+    <string name="overlay_turned_off">플로팅 버튼이 꺼졌습니다</string>
+    <string name="close_target_desc">플로팅 버튼을 끄려면 여기에 드롭하세요</string>
+    <string name="drag_help">팁: 플로팅 버튼 그룹을 화면 하단 중앙의 ✕ 위로 드래그하면 빠르게 끌 수 있습니다.</string>
+    <string name="pinned_notification_switch">알림 창에 고정된 켜기/끄기 항목 표시</string>
+    <string name="pinned_notification_help">켜면 알림 창에 켜기/끄기 버튼이 있는 Media Float Button 항목이 1개 고정됩니다. 스와이프하여 삭제하면 다시 표시됩니다 — 이 스위치를 끌 때만 사라집니다. 켰는데 보이지 않으면: 시스템 설정 → 앱 → Media Float Button → 알림에서 알림이 허용되었는지 확인하세요.</string>
+    <string name="pinned_title">Media Float Button</string>
+    <string name="pinned_status_on">플로팅 버튼: 켜짐 — 터치하여 설정 열기</string>
+    <string name="pinned_status_off">플로팅 버튼: 꺼짐 — 터치하여 설정 열기</string>
+    <string name="action_turn_on">플로팅 버튼 켜기</string>
+    <string name="action_turn_off">플로팅 버튼 끄기</string>
+    <string name="widget_description">플로팅 동영상 탐색 버튼 빠르게 켜기/끄기</string>
+    <string name="widget_on">플로팅 버튼: 켜짐</string>
+    <string name="widget_off">플로팅 버튼: 꺼짐</string>
+    <string name="widget_help">홈 화면에서 빈 공간을 길게 누르기 → 위젯 → Media Float Button. 위젯은 작은 원형 1칸만 차지하며, 터치하면 켜고 끌 수 있습니다. 구버전 위젯(2칸)을 이미 추가한 경우, 제거한 후 다시 추가하면 새 크기를 받을 수 있습니다.</string>
+
+    <string name="settings_title">동영상 탐색 버튼 설정</string>
+    <string name="language_label">언어</string>
+    <string name="language_system">시스템 기본값</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="language_zh">中文</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_de">Deutsch</string>
+    <string name="language_fr">Français</string>
+    <string name="language_es">Español</string>
+    <string name="settings_intro">플로팅 버튼 « ‹ ⏯ › »는 아래 설정에 따라 보고 있는 동영상을 탐색하고 재생/일시정지합니다. 버튼을 드래그하여 위치를 이동할 수 있습니다. 기본값은 ‹ ›(5초)와 가운데 ⏯ 버튼입니다.</string>
+    <string name="overlay_switch">동영상 탐색 플로팅 버튼 표시</string>
+    <string name="buttons_title">탐색 버튼</string>
+    <string name="buttons_help">선택 = 버튼 표시. 옆 숫자는 누를 때마다 이동하는 초 수입니다(1~600). 5초 앞으로 이동 버튼 1개만 원하면 나머지 3개 선택을 해제하세요. 플로팅 버튼에는 « ‹ › » 기호만 표시되고 초 수는 표시되지 않습니다.</string>
+    <string name="preview_prefix">미리보기:</string>
+    <string name="play_pause_label">⏯ 가운데 재생 / 일시정지 버튼</string>
+    <string name="play_desc">재생</string>
+    <string name="pause_desc">일시정지</string>
+    <string name="play_pause_failed">현재 동영상을 재생/일시정지할 수 없습니다</string>
+    <string name="slot_rewind_big">« 뒤로 (초)</string>
+    <string name="slot_rewind_small">‹ 뒤로 (초)</string>
+    <string name="slot_forward_small">› 앞으로 (초)</string>
+    <string name="slot_forward_big">» 앞으로 (초)</string>
+    <string name="at_least_one_button">버튼을 최소 1개 이상 유지해야 합니다</string>
+    <string name="opacity_label">버튼 불투명도 (낮을수록 투명)</string>
+    <string name="size_label">버튼 크기</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="dp_format">%1$d dp</string>
+    <string name="prev_desc">%1$d초 뒤로 이동</string>
+    <string name="next_desc">%1$d초 앞으로 이동</string>
+    <string name="seek_failed">현재 동영상에서 탐색할 수 없습니다</string>
+
+    <string name="permissions_title">필요한 권한</string>
+    <string name="status_granted">허용됨 ✓</string>
+    <string name="status_missing">허용되지 않음 — 수동으로 켜야 합니다</string>
+
+    <string name="overlay_permission_label">1) 다른 앱 위에 표시</string>
+    <string name="open_overlay_settings">플로팅 버튼 표시 설정 열기</string>
+
+    <string name="accessibility_label">2) 접근성</string>
+    <string name="accessibility_help">동영상 플레이어가 시스템 미디어 컨트롤을 지원하지 않을 때 Edge/Chrome에서 타임라인을 찾아 드래그하는 데 사용됩니다. 앱은 버튼을 누를 때만 화면을 읽습니다. 샤오미 기기에서 스위치가 흐릿하다면: 앱 정보 → ⋮ → 제한된 설정 허용으로 이동하세요.</string>
+    <string name="open_accessibility_settings">접근성 설정 열기</string>
+
+    <string name="notification_label">3) 알림 접근 권한 (선택 사항)</string>
+    <string name="notification_help">활성화된 Android 미디어 세션을 찾는 데만 사용되며, 알림 내용은 읽지 않습니다.</string>
+    <string name="open_notification_settings">알림 접근 권한 설정 열기</string>
+
+    <string name="test_title">테스트</string>
+    <string name="session_found">현재 미디어 세션: %1$s</string>
+    <string name="session_none">활성화된 미디어 세션을 찾을 수 없습니다. 동영상을 열고 돌아오거나, 접근성을 이용해 탐색을 시도해 보세요.</string>
+    <string name="session_test_ok">다음을 통해 명령이 전송되었습니다: %1$s</string>
+    <string name="session_test_fail">명령을 전송할 수 없었습니다. 위의 권한을 확인하고 동영상이 화면에 표시되고 있는지 확인하세요.</string>
+    <string name="test_rewind_big">« 테스트</string>
+    <string name="test_rewind_small">‹ 테스트</string>
+    <string name="test_forward_small">테스트 ›</string>
+    <string name="test_play_pause">테스트 ⏯</string>
+    <string name="test_forward_big">테스트 »</string>
+
+    <string name="limitations">Android는 일반 앱이 브라우저에 ←/→ 키를 보낼 수 없습니다. Media Float Button은 Android 미디어 컨트롤을 우선 사용하고, 없으면 접근성으로 타임라인을 드래그합니다. 일부 커스텀 플레이어나 DRM 동영상은 탐색이 불가능할 수 있습니다.</string>
+</resources>
