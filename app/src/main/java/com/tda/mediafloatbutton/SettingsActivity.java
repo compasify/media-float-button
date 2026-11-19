@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.os.LocaleList;
 import android.provider.Settings;
 import android.view.accessibility.AccessibilityManager;
-import android.widget.RadioGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -18,6 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.os.LocaleListCompat;
@@ -148,37 +148,51 @@ public class SettingsActivity extends AppCompatActivity {
 
     // ---- Language picker (system default / 8 languages) ----
 
-    private static final java.util.Map<Integer, String> LANGUAGE_BUTTONS = new java.util.LinkedHashMap<>();
-
-    static {
-        LANGUAGE_BUTTONS.put(R.id.languageSystem, Prefs.LANGUAGE_SYSTEM);
-        LANGUAGE_BUTTONS.put(R.id.languageVi, "vi");
-        LANGUAGE_BUTTONS.put(R.id.languageEn, "en");
-        LANGUAGE_BUTTONS.put(R.id.languageZh, "zh");
-        LANGUAGE_BUTTONS.put(R.id.languageKo, "ko");
-        LANGUAGE_BUTTONS.put(R.id.languageRu, "ru");
-        LANGUAGE_BUTTONS.put(R.id.languageDe, "de");
-        LANGUAGE_BUTTONS.put(R.id.languageFr, "fr");
-        LANGUAGE_BUTTONS.put(R.id.languageEs, "es");
-    }
+    private static final String[] LANGUAGE_TAGS = {
+            Prefs.LANGUAGE_SYSTEM, "vi", "en", "zh", "ko", "ru", "de", "fr", "es"};
+    private static final int[] LANGUAGE_NAME_RES = {
+            R.string.language_system, R.string.language_vi, R.string.language_en,
+            R.string.language_zh, R.string.language_ko, R.string.language_ru,
+            R.string.language_de, R.string.language_fr, R.string.language_es};
 
     private void bindLanguageControls() {
-        RadioGroup group = findViewById(R.id.languageGroup);
-        group.check(languageButtonId(currentAppLanguage()));
-        group.setOnCheckedChangeListener((g, checkedId) -> {
-            String tag = LANGUAGE_BUTTONS.getOrDefault(checkedId, Prefs.LANGUAGE_SYSTEM);
-            if (tag == null) tag = Prefs.LANGUAGE_SYSTEM;
-            if (tag.equals(currentAppLanguage())) return;
-            Prefs.setAppLanguage(this, tag);
-            LocaleListCompat locales = tag.isEmpty()
-                    ? LocaleListCompat.getEmptyLocaleList()
-                    : LocaleListCompat.forLanguageTags(tag);
-            AppCompatDelegate.setApplicationLocales(locales);
-            // Recreates this activity; also rebuild overlay and pinned
-            // notification in the new language.
-            OverlayControl.syncSurfaces(this);
-            if (Prefs.isOverlayEnabled(this)) OverlayService.refresh(this);
-        });
+        Button button = findViewById(R.id.languageButton);
+        button.setText(getString(LANGUAGE_NAME_RES[languageIndex(currentAppLanguage())]));
+        button.setOnClickListener(v -> showLanguageDialog());
+    }
+
+    private void showLanguageDialog() {
+        String[] names = new String[LANGUAGE_NAME_RES.length];
+        for (int i = 0; i < names.length; i++) names[i] = getString(LANGUAGE_NAME_RES[i]);
+        new AlertDialog.Builder(this)
+                .setTitle(R.string.language_label)
+                .setSingleChoiceItems(names, languageIndex(currentAppLanguage()),
+                        (dialog, which) -> {
+                            dialog.dismiss();
+                            applyLanguage(LANGUAGE_TAGS[which]);
+                        })
+                .setNegativeButton(android.R.string.cancel, null)
+                .show();
+    }
+
+    private void applyLanguage(String tag) {
+        if (tag.equals(currentAppLanguage())) return;
+        Prefs.setAppLanguage(this, tag);
+        LocaleListCompat locales = tag.isEmpty()
+                ? LocaleListCompat.getEmptyLocaleList()
+                : LocaleListCompat.forLanguageTags(tag);
+        AppCompatDelegate.setApplicationLocales(locales);
+        // Recreates this activity; also rebuild overlay and pinned
+        // notification in the new language.
+        OverlayControl.syncSurfaces(this);
+        if (Prefs.isOverlayEnabled(this)) OverlayService.refresh(this);
+    }
+
+    private int languageIndex(String tag) {
+        for (int i = 0; i < LANGUAGE_TAGS.length; i++) {
+            if (LANGUAGE_TAGS[i].equals(tag)) return i;
+        }
+        return 0;
     }
 
     private String currentAppLanguage() {
@@ -191,15 +205,10 @@ public class SettingsActivity extends AppCompatActivity {
             tag = locales.size() > 0 ? locales.get(0).getLanguage() : "";
         }
         String primary = Locale.forLanguageTag(tag.split(",")[0].trim()).getLanguage();
-        if (LANGUAGE_BUTTONS.containsValue(primary)) return primary;
-        return Prefs.LANGUAGE_SYSTEM;
-    }
-
-    private int languageButtonId(String tag) {
-        for (java.util.Map.Entry<Integer, String> e : LANGUAGE_BUTTONS.entrySet()) {
-            if (e.getValue().equals(tag)) return e.getKey();
+        for (String supported : LANGUAGE_TAGS) {
+            if (supported.equals(primary)) return primary;
         }
-        return R.id.languageSystem;
+        return Prefs.LANGUAGE_SYSTEM;
     }
 
     @Override

@@ -395,75 +395,11 @@
             android:textSize="17sp"
             android:textStyle="bold" />
 
-        <RadioGroup
-            android:id="@+id/languageGroup"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/languageButton"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <RadioButton
-                android:id="@+id/languageSystem"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="@string/language_system" />
-
-            <RadioButton
-                android:id="@+id/languageVi"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="@string/language_vi" />
-
-            <RadioButton
-                android:id="@+id/languageEn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="@string/language_en" />
-
-            <RadioButton
-                android:id="@+id/languageZh"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="@string/language_zh" />
-
-            <RadioButton
-                android:id="@+id/languageKo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="@string/language_ko" />
-
-            <RadioButton
-                android:id="@+id/languageRu"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="@string/language_ru" />
-
-            <RadioButton
-                android:id="@+id/languageDe"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="@string/language_de" />
-
-            <RadioButton
-                android:id="@+id/languageFr"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="@string/language_fr" />
-
-            <RadioButton
-                android:id="@+id/languageEs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="@string/language_es" />
-        </RadioGroup>
+            android:minHeight="48dp" />
 
     </LinearLayout>
 </ScrollView>
