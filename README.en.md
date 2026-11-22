@@ -92,6 +92,11 @@ On Windows, replace `./gradlew` with `.\gradlew.bat`.
 | [`MediaSessionController`](app/src/main/java/com/tda/mediafloatbutton/MediaSessionController.java) / [`MediaAccessibilityService`](app/src/main/java/com/tda/mediafloatbutton/MediaAccessibilityService.java) | Control playback through Android media sessions or the player interface. |
 | [`OverlayControl`](app/src/main/java/com/tda/mediafloatbutton/OverlayControl.java) / [`ToggleWidget`](app/src/main/java/com/tda/mediafloatbutton/ToggleWidget.java) / [`PinnedNotification`](app/src/main/java/com/tda/mediafloatbutton/PinnedNotification.java) | Keep the app, widget, and notification toggle in sync. |
 
+## Related Projects
+
+- **[OpenDex](https://github.com/compasify/OpenDex)** — An open-source desktop mode workspace for Android featuring a taskbar, free-form app windows, and support for on-device screens, wired USB-C/HDMI displays, and wireless Wi-Fi Cast displays.
+- **[AirDeck](https://github.com/compasify/AirDeck)** — Turns your Android phone or tablet into a serverless Bluetooth HID wireless keyboard, multi-touch trackpad, Smart TV remote, gyroscope Air Mouse, numpad, and slide presenter.
+
 ## Contributing
 
 When reporting an issue, include the **device, Android version, browser, video page, enabled permissions**, and steps to reproduce. Remove personal information from screenshots before posting them.

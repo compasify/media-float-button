@@ -92,6 +92,11 @@ Trên Windows, thay `./gradlew` bằng `.\gradlew.bat`.
 | [`MediaSessionController`](app/src/main/java/com/tda/mediafloatbutton/MediaSessionController.java) / [`MediaAccessibilityService`](app/src/main/java/com/tda/mediafloatbutton/MediaAccessibilityService.java) | Điều khiển MediaSession hoặc thao tác trên giao diện trình phát. |
 | [`OverlayControl`](app/src/main/java/com/tda/mediafloatbutton/OverlayControl.java) / [`ToggleWidget`](app/src/main/java/com/tda/mediafloatbutton/ToggleWidget.java) / [`PinnedNotification`](app/src/main/java/com/tda/mediafloatbutton/PinnedNotification.java) | Đồng bộ trạng thái bật/tắt giữa app, widget và thông báo ghim. |
 
+## Dự án liên quan
+
+- **[OpenDex](https://github.com/compasify/OpenDex)** — Không gian làm việc chế độ Desktop mã nguồn mở cho Android với thanh tác vụ (taskbar), cửa sổ ứng dụng tự do (free-form) và hỗ trợ màn hình trên máy, màn hình ngoài USB-C/HDMI lẫn truyền không dây Wi-Fi Cast.
+- **[AirDeck](https://github.com/compasify/AirDeck)** — Biến điện thoại hoặc máy tính bảng Android thành bàn phím không dây, touchpad đa điểm, remote Smart TV, chuột bay (Air Mouse), bàn phím số và bút trình chiếu qua Bluetooth HID — không cần cài app phụ hay server.
+
 ## Đóng góp
 
 Khi báo lỗi, hãy ghi rõ **thiết bị, phiên bản Android, trình duyệt, trang video, các quyền đã bật** và các bước tái hiện. Nếu gửi ảnh màn hình, hãy che thông tin cá nhân trước khi đăng.
